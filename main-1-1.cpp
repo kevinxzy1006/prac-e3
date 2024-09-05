@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    Car car; // Create an object for the class
+    Car car(100,5); // Create an object for the class
 
     car.set_price(20000);
     car.set_emissions(10);
